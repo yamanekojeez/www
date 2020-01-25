@@ -50,7 +50,7 @@ header {
 /*ロゴ画像設定*/
 #logo img {
 	width: 400px;	/*画像幅*/
-	margin: 30px auto 30px;	/*ロゴの上と下に30pxスペースを空ける設定*/
+	margin: 20px auto 20px;	/*ロゴの上と下に20pxスペースを空ける設定*/
 }
 
 /*トップページのメイン画像
@@ -58,7 +58,7 @@ header {
 /*画像ブロック*/
 #mainimg img {
 	border-radius: 10px;	/*角を丸くする指定。この１行を削除すれば角丸がなくなります。*/
-	margin-bottom: 30px;	/*下に空けるスペース*/
+	margin-bottom: 40px;	/*下に空けるスペース*/
 }
 
 /*メニュー
