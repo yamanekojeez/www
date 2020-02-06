@@ -1,3 +1,4 @@
 # www
-for GitHub Pages\n
+for GitHub Pages
+
 https://yamanekojeez.github.io/www/
