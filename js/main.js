@@ -2,7 +2,7 @@ document.getElementById("view_brs").innerHTML = browser();
 //ブラウザの判定
 function browser() {
 	var brs;
-	if (document.all) { //*2
+	if (document.all) {
 		//Internet Explorer
 		brs = "Internet Explorer";
 	} else {
