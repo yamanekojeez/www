@@ -1,3 +1,4 @@
+alert("Hello World");
 document.getElementById("view_brs").innerHTML = browser();
 //ブラウザの判定
 function browser() {
