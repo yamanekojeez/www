@@ -143,7 +143,7 @@ header {
 ---------------------------------------------------------------------------*/
 footer {
 	clear: both;
-	text-align: center;	/*文字をセンタリング*/
+	text-align: center;		/*文字をセンタリング*/
 	padding: 30px 0px 10px;	/*上、左右、下へのボックス内の余白*/
 }
 footer a {
@@ -152,6 +152,9 @@ footer a {
 }
 footer .pr {
 	display: block;
+}
+footer .sp {
+	margin-right: 10px;		/* 文字の右に余白挿入 */
 }
 
 /*トップページ内「更新情報・お知らせ」ブロック
