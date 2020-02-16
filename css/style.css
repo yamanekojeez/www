@@ -23,11 +23,11 @@ iframe {width: 100%;}
 /*リンク（全般）設定
 ---------------------------------------------------------------------------*/
 a {
-	color: #666;	/*リンクテキストの色*/
+	color: #666;		/*リンクテキストの色*/
 	transition: 0.3s;	/*マウスオン時の移り変わるまでの時間設定。0.3秒。*/
 }
 a:hover {
-	color: #d08047;	/*マウスオン時の文字色*/
+	color: #d08047;		/*マウスオン時の文字色*/
 }
 
 /*コンテナー（ホームページを囲む一番外側のブロック）
@@ -46,7 +46,7 @@ header {
 }
 /*ロゴ画像設定*/
 #logo img {
-	width: 400px;	/*画像幅*/
+	width: 400px;		/*画像幅*/
 	margin: 20px auto 20px;	/*ロゴの上と下に20pxスペースを空ける設定*/
 }
 
@@ -76,7 +76,7 @@ header {
 }
 /*マウスオン時の設定*/
 #menubar li a:hover {
-	color: #d08047;	/*文字色*/
+	color: #d08047;		/*文字色*/
 	border-bottom: 4px solid #d08047;	/*下線の幅、線種、色*/
 }
 
@@ -86,8 +86,8 @@ header {
 #contents h2 {
 	clear: both;
 	margin-bottom: 20px;
-	color: #fff;		/*文字色*/
-	padding: 10px 20px;	/*上下、左右への余白*/
+	color: #fff;			/*文字色*/
+	padding: 10px 20px;		/*上下、左右への余白*/
 	background: #d08047;	/*背景色*/
 	border-radius: 10px;	/*角を丸くする指定。この１行を削除すれば角丸がなくなります。*/
 }
@@ -95,8 +95,8 @@ header {
 #contents h3 {
 	clear: both;
 	margin-bottom: 20px;
-	padding: 8px 20px;	/*上下、左右への余白*/
-	background: #fff;	/*背景色*/
+	padding: 8px 20px;		/*上下、左右への余白*/
+	background: #fff;		/*背景色*/
 	border: 1px solid #ccc;	/*枠線の幅、線種、色*/
 	border-radius: 10px;	/*角を丸くする指定。この１行を削除すれば角丸がなくなります。*/
 }
@@ -122,11 +122,11 @@ header {
 .list {
 	overflow: hidden;
 	border-bottom: 1px solid #ccc;	/*下線の幅、線種、色*/
-	padding: 20px;	/*ボックス内の余白*/
+	padding: 20px;		/*ボックス内の余白*/
 }
 /*h4見出しの設定*/
 .list h4 {
-	color: #d08047;	/*文字色*/
+	color: #d08047;		/*文字色*/
 }
 /*画像の設定*/
 .list img {
@@ -158,7 +158,7 @@ footer .pr {
 ---------------------------------------------------------------------------*/
 /*ブロック全体の設定*/
 #new dl {
-	padding: 0px 20px;	/*上下、左右へのブロック内の余白*/
+	padding: 0px 20px;		/*上下、左右へのブロック内の余白*/
 	margin-bottom: 20px;	/*ブロックの下(外側)に空ける余白*/
 }
 /*日付設定*/
@@ -263,5 +263,5 @@ body {
 /*その他
 ---------------------------------------------------------------------------*/
 .ws,.wl {width: 94%;}
-
+.space {margin-right: 10px;}	/* 右余白 */
 }
