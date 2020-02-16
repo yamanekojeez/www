@@ -1,6 +1,6 @@
 alert("Hello World!");
-var yobi = new Array("日","月","火","水","木","金","土");
-var today = new Date();
-var week = today.getDay();
+let yobi = new Array("日","月","火","水","木","金","土");
+let today = new Date();
+let week = today.getDay();
 
-document.write( yobi[week] + "曜日!");
+document.write( "本日は" + yobi[week] + "曜日!");
