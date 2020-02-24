@@ -1,4 +1,9 @@
 /* alert("Hello World!"); */
+let yobi = new Array("日","月","火","水","木","金","土");
+let today = new Date();
+let week = today.getDay();
+document.write( "本日は" + yobi[week] + "曜日!");
+
 document.getElementById("view_brs").innerHTML = browser();
 function browser() {
         let agent = window.navigator.userAegnt.toLowerCase();
@@ -17,9 +22,3 @@ function browser() {
         }
     return "あなたは<font color='#FF0000'>" + brs + "</font>を使っています。";
 }
-
-let yobi = new Array("日","月","火","水","木","金","土");
-let today = new Date();
-let week = today.getDay();
-
-document.write( "本日は" + yobi[week] + "曜日!");
