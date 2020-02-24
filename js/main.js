@@ -5,6 +5,7 @@ let week = today.getDay();
 document.write( "本日は" + yobi[week] + "曜日!");
 
 function browser() {
+        var brs;
         let agent = window.navigator.userAegnt.toLowerCase();
         if(agent.indexOf('msie') > -1) {
             brs = 'InternetExplorer';
