@@ -21,5 +21,5 @@ function browser() {
         }
     return "あなたは<font color='#FF0000'>" + brs + "</font>を使っています。";
 }
-document.write( "使っているブラウザは" + brs )
+document.write( "使っているブラウザは" + brs );
 document.getElementById("view_brs").innerHTML = browser();
