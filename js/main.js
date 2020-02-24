@@ -7,7 +7,7 @@ function browser() {
         } else if(agent.indexOf('edge') > -1) {
             brs = 'Edge';
         } else if(agent.indexOf('chrome') > -1) {
-            brs = 'Edge';
+            brs = 'Chrome';
         } else if(agent.indexOf('safari') > -1) {
             brs = 'Safari';
         } else if(agent.indexOf('firefox') > -1) {
