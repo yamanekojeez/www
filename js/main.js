@@ -4,7 +4,7 @@ let today = new Date();
 let week = today.getDay();
 document.write( "本日は" + yobi[week] + "曜日!");
 
-/* document.getElementById("view_brs").innerHTML = browser();
+document.getElementById("view_brs").innerHTML = browser();
 function browser() {
         let agent = window.navigator.userAegnt.toLowerCase();
         if(agent.indexOf('msie') > -1) {
@@ -21,4 +21,4 @@ function browser() {
             brs = '不明なブラウザ';
         }
     return "あなたは<font color='#FF0000'>" + brs + "</font>を使っています。";
-} */
+}
