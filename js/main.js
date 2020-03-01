@@ -4,7 +4,7 @@ var today = new Date();
 var week = today.getDay();
 document.write( "本日は" + yobi[week] + "曜日!");
 
-function checkBrowser(){
+function browser(){
     var result = '不明';
     var agent = window.navigator.userAgent.toLowerCase();
     var version = window.navigator.appVersion.toLowerCase();
@@ -36,7 +36,8 @@ function checkBrowser(){
     }else if (agent.indexOf("firefox") > -1){
         result = 'Firefox';
     }
-  alert("使っているブラウザは" + result + "です");
+  document.write("使っているブラウザは" + result + "です");
 }
 document.write( "使っているブラウザは" + result );
-document.getElementById("view_brs").innerHTML = checkBrowser();
+var target = document.getElementById("view_brs");
+target.innerHTML = browser();
