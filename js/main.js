@@ -36,7 +36,7 @@ function checkBrowser(){
     }else if (agent.indexOf("firefox") > -1){
         result = 'Firefox';
     }
-  document.write("使っているブラウザは" + result + "です");
+  alert("使っているブラウザは" + result + "です");
 }
 document.write( "使っているブラウザは" + result );
 document.getElementById("view_brs").innerHTML = ChekBrowser();
