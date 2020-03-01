@@ -39,4 +39,4 @@ function checkBrowser(){
   alert("使っているブラウザは" + result + "です");
 }
 document.write( "使っているブラウザは" + result );
-document.getElementById("view_brs").innerHTML = ChekBrowser();
+document.getElementById("view_brs").innerHTML = CheckBrowser();
