@@ -4,23 +4,39 @@ var today = new Date();
 var week = today.getDay();
 document.write( "本日は" + yobi[week] + "曜日!");
 
-function browser() {
-        var brs;
-        var agent = window.navigator.userAegnt.toLowerCase();
-        if(agent.indexOf('msie') > -1) {
-            brs = 'InternetExplorer';
-        } else if(agent.indexOf('edge') > -1) {
-            brs = 'Edge';
-        } else if(agent.indexOf('chrome') > -1) {
-            brs = 'Chrome';
-        } else if(agent.indexOf('safari') > -1) {
-            brs = 'Safari';
-        } else if(agent.indexOf('firefox') > -1) {
-            brs = 'Safari';
-        } else {
-            brs = '不明なブラウザ';
+function checkBrowser(){
+    var result = '不明';
+    var agent = window.navigator.userAgent.toLowerCase();
+    var version = window.navigator.appVersion.toLowerCase();
+
+    if(agent.indexOf("msie") > -1){
+        if (version.indexOf("msie 6.") > -1){
+            result = 'IE6';
+        }else if (version.indexOf("msie 7.") > -1){
+            result = 'IE7';
+        }else if (version.indexOf("msie 8.") > -1){
+            result = 'IE8';
+        }else if (version.indexOf("msie 9.") > -1){
+            result = 'IE9';
+        }else if (version.indexOf("msie 10.") > -1){
+            result = 'IE10';
+        }else{
+            result = 'IE(バージョン不明)';
         }
-    return "あなたは<font color='#FF0000'>" + brs + "</font>を使っています。";
+    }else if(agent.indexOf("trident/7") > -1){
+        result = 'IE11';
+    }else if(agent.indexOf("edge") > -1){
+        result = 'Edge';
+    }else if (agent.indexOf("chrome") > -1){
+        result = 'Chrome';
+    }else if (agent.indexOf("safari") > -1){
+        result = 'Safari';
+    }else if (agent.indexOf("opera") > -1){
+        result = 'Opera';
+    }else if (agent.indexOf("firefox") > -1){
+        result = 'Firefox';
+    }
+  document.write("使っているブラウザは" + result + "です");
 }
-document.write( "使っているブラウザは" + brs );
-document.getElementById("view_brs").innerHTML = browser();
+document.write( "使っているブラウザは" + result );
+document.getElementById("view_brs").innerHTML = ChekBrowser();
