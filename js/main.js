@@ -39,5 +39,5 @@ function browser(){
   document.write("使っているブラウザは" + result + "です");
 }
 document.write( "使っているブラウザは" + result );
-var target = document.getElementById("view_brs");
+var target = document.getElementById("view_brs").value;
 target.innerHTML = browser();
