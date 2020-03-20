@@ -2,7 +2,7 @@
 var yobi = new Array("日","月","火","水","木","金","土");
 var today = new Date();
 var week = today.getDay();
-document.write( "本日は + yobi[week] + 曜日!\n" );
+document.write( "本日は" + yobi[week] + "曜日!\n" );
 
 var userAgent = window.navigator.userAgent.toLowerCase();
 if(userAgent.indexOf("msie") != -1 ||
