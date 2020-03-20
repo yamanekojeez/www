@@ -5,7 +5,7 @@ var week = today.getDay();
 document.write( "本日は" + yobi[week] + "曜日!");
 
 var userAgent = window.navigator.userAgent.toLowerCase();
-documeet.write('</br>');
+document.write("<br>");
 
 if(userAgent.indexOf('msie') != -1 ||
         userAgent.indexOf('trident') != -1) {
