@@ -2,11 +2,9 @@
 var yobi = new Array("日","月","火","水","木","金","土");
 var today = new Date();
 var week = today.getDay();
-document.write( "本日は" + yobi[week] + "曜日!");
+document.write( "本日は" + yobi[week] + "曜日!"\n);
 
 var userAgent = window.navigator.userAgent.toLowerCase();
-document.write("<br>");
-
 if(userAgent.indexOf('msie') != -1 ||
         userAgent.indexOf('trident') != -1) {
     document.write('Internet Explorerをお使いですね');
