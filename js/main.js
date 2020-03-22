@@ -22,6 +22,6 @@ if (userAgent.indexOf("msie") != -1 || userAgent.indexOf("trident") != -1) {
 }
 
 function ChangeParaToDate(){
-	document.getElementByID("eid_date").innerHTML = Date();
+	document.getElementById("eid_date").innerHTML = Date();
 }
 
