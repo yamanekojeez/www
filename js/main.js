@@ -36,7 +36,7 @@ function checkBrowser() {
 	} else if (agent.indexOf("firefox") > -1) {
 		result = 'Firefox';
 	}
-	("お使いのブラウザは「" + result + "」です。");
+	document.write("お使いのブラウザは「" + result + "」です。");
 }
 
 function ChangeParaToDate() {
