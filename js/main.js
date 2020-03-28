@@ -40,5 +40,5 @@ function checkBrowser() {
 }
 
 function ChangeParaToDate() {
-	document.getElementById("eid_date").innerHTML = checkBrowser();
+	document.getElementById("browser").innerHTML = checkBrowser();
 }
