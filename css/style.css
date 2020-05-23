@@ -130,7 +130,7 @@ header {
 }
 /*画像の設定*/
 .list img {
-	width: 20%;			/*画像幅*/
+	width: 20%;		/*画像幅*/
 	float: left;		/*画像を左に回り込み*/
 	margin-right: 3%	/*画像の右側に空けるスペース*/
 }
@@ -158,7 +158,7 @@ footer .pr {
 ---------------------------------------------------------------------------*/
 /*ブロック全体の設定*/
 #new dl {
-	padding: 0px 20px;		/*上下、左右へのブロック内の余白*/
+	padding: 0px 20px;	/*上下、左右へのブロック内の余白*/
 	margin-bottom: 20px;	/*ブロックの下(外側)に空ける余白*/
 }
 /*日付設定*/
@@ -178,10 +178,10 @@ footer .pr {
 .ta1 caption {
 	border: 1px solid #999;	/*テーブルの枠線の幅、線種、色*/
 	border-bottom: none;	/*下線だけ消す*/
-	text-align: left;		/*文字を左寄せ*/
-	background: #eee;		/*背景色*/
-	font-weight: bold;		/*太字に*/
-	padding: 10px;			/*ボックス内の余白*/
+	text-align: left;	/*文字を左寄せ*/
+	background: #eee;	/*背景色*/
+	font-weight: bold;	/*太字に*/
+	padding: 10px;		/*ボックス内の余白*/
 }
 /*テーブル１行目に入った見出し部分（※tamidashi）*/
 .ta1 th.tamidashi {
@@ -198,7 +198,7 @@ footer .pr {
 .ta1, .ta1 td, .ta1 th {
 	word-break: break-all;
 	border: 1px solid #999;	/*テーブルの枠線の幅、線種、色*/
-	padding: 10px;			/*テーブル内の余白*/
+	padding: 10px;		/*テーブル内の余白*/
 }
 /*テーブルの左側ボックス*/
 .ta1 th {
