@@ -202,8 +202,8 @@ footer .pr {
 }
 /*テーブルの左側ボックス*/
 .ta1 th {
-	text-align: center;	/*センタリング*/
-	width: 30%;			/*幅*/
+	text-align: left;	/*左よせ*/
+	width: 30%;		/*幅*/
 }
 
 /*トップページのNEWアイコン
