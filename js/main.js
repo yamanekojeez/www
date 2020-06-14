@@ -43,5 +43,5 @@ function ChangeParaToDate() {
 	document.getElementById("browser").innerHTML = checkBrowser();
 }
 function alt() {
-	alart("ようこそ艦隊司令部へ！\n提督を応援しています。");
+	document.write("ようこそ艦隊司令部へ！\n提督を応援しています。");
 }
