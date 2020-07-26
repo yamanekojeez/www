@@ -44,5 +44,5 @@ function ChangeParaToDate() {
 }
 
 function alrt() {
-	document.write("ようこそ艦隊司令部へ！\n提督を応援しています。");
+	alart("ようこそ艦隊司令部へ！\n提督を応援しています。");
 }
