@@ -44,5 +44,5 @@ function ChangeParaToDate() {
 }
 
 function alrt() {
-	alart("ようこそ艦隊司令部へ！\n提督を応援しています。");
+	alert("ようこそ艦隊司令部へ！\n提督を応援しています。");
 }
