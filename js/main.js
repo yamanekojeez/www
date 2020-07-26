@@ -2,7 +2,7 @@
 var yobi = new Array("日", "月", "火", "水", "木", "金", "土");
 var today = new Date();
 var week = today.getDay();
-document.write("本日は" + yobi[week] + "曜日!<br>");
+document.write("今日は" + yobi[week] + "曜日!<br>");
 
 function checkBrowser() {
 	var result = '不明';
