@@ -192,6 +192,7 @@ footer .pr {
 /*ta1テーブルブロック設定*/
 .ta1 {
 	table-layout: fixed;
+	vertical-align: top;	/*上寄せ*/
 	width: 100%;
 	margin: 0 auto 20px;
 }
