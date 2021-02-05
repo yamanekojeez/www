@@ -192,7 +192,6 @@ footer .pr {
 /*ta1テーブルブロック設定*/
 .ta1 {
 	table-layout: fixed;
-	vertical-align: top;	/*上寄せ*/
 	width: 100%;
 	margin: 0 auto 20px;
 }
@@ -200,11 +199,11 @@ footer .pr {
 	word-break: break-all;
 	border: 1px solid #999;	/*テーブルの枠線の幅、線種、色*/
 	padding: 10px;		/*テーブル内の余白*/
+	vertical-align: top;	/*上寄せ*/
 }
 /*テーブルの左側ボックス*/
 .ta1 th {
 	text-align: left;		/*左寄せ*/
-	vertical-align: top;	/*上寄せ*/
 	width: 30%;				/*幅*/
 }
 
