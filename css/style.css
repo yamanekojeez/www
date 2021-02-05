@@ -186,7 +186,7 @@ footer .pr {
 /*テーブル１行目に入った見出し部分（※tamidashi）*/
 .ta1 th.tamidashi {
 	width: auto;
-	text-align: left;	/*左よせ*/
+	text-align: start;	/*始点*/
 	background: #eee;	/*背景色*/
 }
 /*ta1テーブルブロック設定*/
@@ -202,7 +202,7 @@ footer .pr {
 }
 /*テーブルの左側ボックス*/
 .ta1 th {
-	text-align: left;	/*左よせ*/
+	text-align: start;	/*始点*/
 	width: 30%;		/*幅*/
 }
 
